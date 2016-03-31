@@ -20,7 +20,6 @@ public class LocationController {
 	@Autowired
 	private LocationRepository locationRepository;
 
-	
 	/* Create new location */
 	@RequestMapping(value = "", method = RequestMethod.POST)
 	public ResponseEntity<Location> createLocation(@RequestBody Location location,
